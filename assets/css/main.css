@@ -1198,6 +1198,22 @@ h1 {
   font-weight: 700;
 }
 
+
+#ruleBook li{
+  margin: 20px 0px;
+  font-size: 18px;
+}
+.counterUpDiv {
+  color: #fff;
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.heroText{
+  z-index: 256 !important;
+}
+
 /* Sponsors Area */
 #sponsors {
   /* background: url(https://cdn.pixabay.com/photo/2015/12/08/00/26/desk-1081708_960_720.jpg) no-repeat center; */
@@ -2530,11 +2546,14 @@ img#nav-logo {
   #hero-area #homeContent {
     margin-top: 15vh;
   }
+  #hero-area .contents .head-title{
+    font-size: 60px !important;
+  }
 }
 
 #hero-area .contents .head-title {
   color: #fff;
-  font-size: 90px !important;
+  font-size: 90px ;
   word-break: break-all;
   line-height: 100px;
   text-transform: uppercase;
@@ -2809,3 +2828,4 @@ li.stylish-list {
 .prize-desc {
   display: none;
 }
+
